@@ -1,9 +1,10 @@
 .request {
   width: 60%;
-  min-height: 50%;
+  /* height: 50%; */
+  min-height: 50vh;
 
   background-color: rgb(250, 184, 173);
-  margin: 2px auto;
+  margin: 0 auto;
   position: relative;
   display: flex;
   flex-wrap: wrap;

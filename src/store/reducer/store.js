@@ -16,12 +16,16 @@ import * as actionTypes from "../action/actionTypes";
          }    
          case actionTypes.FETCH_SUCCESS:
              return {
-            ...state, data:action.dataRecived,loading:false
+               ...state,
+               data: action.dataRecived,
+               loading: false
          }    
          case actionTypes.FETCH_FAIL:
              return {
-            ...state, loading:false,
-         }    
+               ...state,
+               loading: false,
+               error: action.errormsg,
+             };    
          
 
        default:
