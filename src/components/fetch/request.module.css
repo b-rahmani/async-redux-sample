@@ -1,0 +1,11 @@
+.request {
+  width: 60%;
+  min-height: 50%;
+
+  background-color: rgb(250, 184, 173);
+  margin: 2px auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
